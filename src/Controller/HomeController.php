@@ -13,10 +13,13 @@ class HomeController extends AbstractController
 
     private $entityManager;
 
+    // Construction pour initialiser la variable entityManager
     public function __construct(EntityManagerInterface $entityManager ){
         $this->entityManager = $entityManager;
     }
 
+    // Cette méthode s'exécute lors de l'utilisation de l'url localhost
+    // Il affichera l'interface développée dans le fichier home/index.html.twig
     /**
      * @Route("/", name="home")
      */

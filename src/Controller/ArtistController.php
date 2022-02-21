@@ -8,6 +8,8 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class ArtistController extends AbstractController
 {
+    // Cette méthode s'exécute lors de l'utilisation de l'url localhost/artist
+    // Il affichera l'interface développée dans le fichier artist/index.html.twig
     /**
      * @Route("/artist", name="artist")
      */

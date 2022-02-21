@@ -13,6 +13,8 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class DashboardController extends AbstractDashboardController
 {
+
+    //Admin dashboard : Cette méthode s'exécute lors de l'utilisation de l'url localhost/admin
     /**
      * @Route("/admin", name="admin")
      */

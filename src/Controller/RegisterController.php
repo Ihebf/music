@@ -15,10 +15,11 @@ class RegisterController extends AbstractController
 {
 
     private $entityManager;
-
+    // Construction pour initialiser la variable entityManager
     public function __construct(EntityManagerInterface $entityManager ){
         $this->entityManager = $entityManager;
     }
+
 
     /**
      * @Route("/inscription", name="register")
@@ -28,30 +29,35 @@ class RegisterController extends AbstractController
 
         $notification = null;
 
+        //crée un objet user.
         $user = new User();
-        $form = $this->createForm(RegisterType::class, $user) ;
+        // création d'un formulaire pour user
+        $form = $this->createForm(RegisterType::class, $user);
+        // Pour traiter les données du formulaire
         $form ->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()){
 
+            //$form->getData() contient les valeurs soumises
+            // la variable $user d'origine a également été mise à jour
             $user = $form->getData();
+            // vérifier si l'e-mail existe dans la base de données ou non
             $user_find = $this->entityManager->getRepository(User::class)->findOneByEmail($user->getEmail());
-
+            // si l'e-mail n'existe pas dans la base de données
             if (!$user_find){
-
+                // hasher le mdp
                 $password = $encoder->hashPassword($user ,$user ->getPassword());
                 $user ->setPassword($password);
+                // Insérer l'utilisateur dans la base de données
+                $this->entityManager->persist($user);
+                $this->entityManager->flush();
+                $notification = "Votre inscription s'est bien déroulée";
+            }else{ // si l'e-mail existe
+                $notification = "L'email utilisé existe déja";
             }
-
-            $this->entityManager->persist($user);
-            $this->entityManager->flush();
-
-            $notification = "Votre inscription s'est bien déroulée";
-        }else{
-            $notification = "L'email utilié existe déja";
         }
-
-
+        // Cette méthode s'exécute lors de l'utilisation de l'url localhost/inscription
+        // Il affichera l'interface développée dans le fichier register/index.html.twig
         return $this->render('register/index.html.twig', [
             'form' => $form->createView(),
             'notification' => $notification
