@@ -1,0 +1,387 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Contact{% endblock %}
+
+{% block body %}
+    <style id='mkhb-inline-css' type='text/css'>
+        #ckd09djx2002h3g68e5y6uxxb { display:inline-block; vertical-align:top; }#ckd09djx2002h3g68e5y6uxxb .mkhb-icon-el__link { margin:0 10px 0 0;height:16px; width:16px; }#ckd0907ir000h3g68i9mbowk5 { display:inline-block; vertical-align:top; }#ckd0907ir000h3g68i9mbowk5 .mkhb-textbox-el__link { color:rgba(253,253,253,1); }#ckd0907ir000h3g68i9mbowk5 .mkhb-textbox-el__link[href]:hover { color:rgba(215,223,35,1); }#cja0zvuf3001z3c60plu3ugas { padding:10px 0 0 0;vertical-align:middle; }#ckd09akpt002e3g6838ssza9w { display:inline-block; vertical-align:top; }#ckd09akpt002e3g6838ssza9w .mkhb-icon-el__link { margin:0 10px 0 0;height:16px; width:16px; }#ckd08s5x5000e3g68jdmlooo1 { display:inline-block; vertical-align:top; }#ckd08s5x5000e3g68jdmlooo1 .mkhb-textbox-el__link { color:rgba(250,241,241,1);font-size:18px;line-height:18px; }#ckd08s5x5000e3g68jdmlooo1 .mkhb-textbox-el__link[href]:hover { color:rgba(215,223,35,1); }#cja0zvuf400223c60tlthvkrz { padding:10px 0 0 0;vertical-align:middle; }#cja29v4kw000k3c60y1qoilgh .mkhb-button-el__link { width:200px;background-color:rgba(61,64,69,1);border-radius:2px;padding:10px 20px 10px 20px;margin:0 10px 0 0;font-weight:400;border-width:1px 1px 1px 1px;border-color:rgba(255,255,255,1) rgba(255,255,255,1) rgba(255,255,255,1) rgba(255,255,255,1); }#cja29v4kw000k3c60y1qoilgh .mkhb-button-el__link:hover { color:rgba(83,83,83,1);background-color:rgba(215,223,35,1); }#cja29v4kw000k3c60y1qoilgh { text-align:right; }#cja0zvuf400253c60d8sxh5bw { vertical-align:middle; }#ckd089rhz00083g68p6lj52n8 { margin:5px 0 0 0; }#ckd089rhz00083g68p6lj52n8 .mkhb-icon-el__link { height:30px; width:30px; }#ckd089rhz00083g68p6lj52n8 .mkhb-icon-el__link--hoverable:hover { color:rgba(255,255,255,1);background:rgba(215,223,35,1); }#cja0zvuf3001w3c606ti7gmi0 { background-color:rgba(61,64,69,1); }#cja0zvuf3001w3c606ti7gmi0 > .mkhb-row__container { max-width:1200px; }#cja0zvuf3001w3c606ti7gmi0 .mkhb-row__container { padding:10px 0 10px 0; }#cja0ysvog00083c60c3r3vip5 { padding:10px 0 0 0; }#cja0ysvog00083c60c3r3vip5 .mkhb-logo-el__image { width:200px; }#cja0y3t7d000b3c60b8zifutj { vertical-align:middle; } #cja0yszj5000b3c609y243mmd.mkhb-nav-container { margin:0; z-index:301; text-align:right; display:inline-block; vertical-align:top; } #cja0yszj5000b3c609y243mmd .mkhb-navigation-ul > li.menu-item > a.menu-item-link { color:rgba(68,68,68,1); padding:50px 15px 50px 15px; font-size:14px; font-weight:; margin-right:; } #cja0yszj5000b3c609y243mmd .mkhb-navigation-ul > li.menu-item:last-of-type > a.menu-item-link { margin-right:0; } #cja0yszj5000b3c609y243mmd .mkhb-navigation ul.sub-menu a.menu-item-link { color:rgba(255,255,255,1); font-size:; font-weight:; } #cja0yszj5000b3c609y243mmd .mkhb-navigation li.hb-no-mega-menu ul.sub-menu { background-color:rgba(68,68,68,1); } #cja0yszj5000b3c609y243mmd .mkhb-navigation ul.sub-menu a.menu-item-link:hover, #cja0yszj5000b3c609y243mmd .mkhb-navigation-ul ul.sub-menu li.current-menu-item > a.menu-item-link, #cja0yszj5000b3c609y243mmd .mkhb-navigation-ul ul.sub-menu li.current-menu-parent > a.menu-item-link { background-color:rgba(215,223,35,1); color:rgba(255,255,255,1); } #cja0yszj5000b3c609y243mmd-wrap .mkhb-navigation-resp__ul > li > a { font-family:Roboto; font-weight:; font-size:14px; color:rgba(68,68,68,1); background-color:; } #cja0yszj5000b3c609y243mmd-wrap .mkhb-navigation-resp__ul > li:hover > a { color:rgba(255,255,255,1); background-color:rgba(215,223,35,1); } #cja0yszj5000b3c609y243mmd-wrap .mkhb-navigation-resp__ul > li > ul { background-color:rgba(68,68,68,1); } #cja0yszj5000b3c609y243mmd-wrap .mkhb-navigation-resp__ul > li > ul li a { font-family:Roboto; font-weight:; font-size:; color:rgba(255,255,255,1); } #cja0yszj5000b3c609y243mmd-wrap .mkhb-navigation-resp__ul > li > ul li:hover > a { color:rgba(255,255,255,1); background-color:rgba(215,223,35,1); } #cja0yszj5000b3c609y243mmd.mkhb-menu-nav-style-text a { font-family:Roboto; } #cja0yszj5000b3c609y243mmd.mkhb-menu-hover-style-2 .mkhb-navigation-ul>li.menu-item>a { background-color:initial; } #cja0yszj5000b3c609y243mmd.mkhb-menu-hover-style-2 .mkhb-navigation-ul > li.menu-item > a.menu-item-link:hover, #cja0yszj5000b3c609y243mmd.mkhb-menu-hover-style-2 .mkhb-navigation-ul > li.menu-item:hover > a.menu-item-link, #cja0yszj5000b3c609y243mmd.mkhb-menu-hover-style-2 .mkhb-navigation-ul > li.current-menu-item > a.menu-item-link, #cja0yszj5000b3c609y243mmd.mkhb-menu-hover-style-2 .mkhb-navigation-ul > li.current-menu-ancestor > a.menu-item-link { color:rgba(255,255,255,1); background-color:rgba(215,223,35,1); } .mkhb-navigation-resp__wrap { background-color:#ffffff; } .mkhb-navigation-resp__menu > div { background-color:#444444; } .mkhb-navigation-resp__ul li ul li .megamenu-title:hover, .mkhb-navigation-resp__ul li ul li .megamenu-title, .mkhb-navigation-resp__ul li a, .mkhb-navigation-resp__ul li ul li a:hover, .mkhb-navigation-resp__ul .mkhb-navigation-resp__arrow { color:#444444; } #cja0y3t7d000e3c606qy0r66w { vertical-align:middle; }#cja0ytb02000e3c60xrdujz90 { margin:0 20px 0 0; }#cja0ytb02000e3c60xrdujz90 .mkhb-search-el__container { color:rgba(136,136,136,1); }#cja0ytb02000e3c60xrdujz90 .mkhb-search-el__container:hover { color:rgba(68,68,68,1); }#cja0y3t7d000h3c60egziow2l { padding:50px 30px 30px 30px;vertical-align:bottom; }#cja0y3t7d00083c600cxvs5hd { background-color:rgba(252,252,252,1); }#cja0y3t7d00083c600cxvs5hd > .mkhb-row__container { max-width:1200px; }#ckd0frnx500073g686xtyew7j .mkhb-button-el__link { background-color:rgba(215,223,35,1); }#ckd0frnx500073g686xtyew7j .mkhb-button-el__link:hover { color:rgba(53,53,53,1);background-color:rgba(125,125,125,1); }#ckd0frnx500073g686xtyew7j { text-align:center; }#ckd098fou000p3g683mv74trs { background-color:rgba(50,50,50,0.01); }#ckd098fou000m3g682klj6wm9 { background-color:rgba(80,80,80,1); }#ckd09djx2002g3g68erch1blp { display:inline-block; vertical-align:top; }#ckd09djx2002g3g68erch1blp .mkhb-icon-el__link { margin:0 10px 0 0;height:16px; width:16px; }#ckd0907ir000g3g684rt1pady { display:inline-block; vertical-align:top; }#ckd0907ir000g3g684rt1pady .mkhb-textbox-el__link { color:rgba(253,253,253,1); }#ckd0907ir000g3g684rt1pady .mkhb-textbox-el__link[href]:hover { color:rgba(215,223,35,1); }#cja0zvuf3001y3c60pb8d2si3 { vertical-align:middle; }#ckd09akpt002d3g680jkknbu3 { display:inline-block; vertical-align:top; }#ckd09akpt002d3g680jkknbu3 .mkhb-icon-el__link { margin:0 10px 0 0;height:16px; width:16px; }#ckd08s5x5000d3g68cxjus5qg { display:inline-block; vertical-align:top; }#ckd08s5x5000d3g68cxjus5qg .mkhb-textbox-el__link { color:rgba(250,241,241,1);font-size:18px;line-height:18px; }#ckd08s5x5000d3g68cxjus5qg .mkhb-textbox-el__link[href]:hover { color:rgba(215,223,35,1); }#cja0zvuf400213c60aytbye63 { vertical-align:middle; }#cja29v4kw000j3c60z98hbi9c .mkhb-button-el__link { width:200px;background-color:rgba(61,64,69,1);border-radius:2px;padding:10px 20px 10px 20px;margin:0 10px 0 0;font-weight:400;border-width:1px 1px 1px 1px;border-color:rgba(255,255,255,1) rgba(255,255,255,1) rgba(255,255,255,1) rgba(255,255,255,1); }#cja29v4kw000j3c60z98hbi9c .mkhb-button-el__link:hover { color:rgba(83,83,83,1);background-color:rgba(215,223,35,1); }#cja29v4kw000j3c60z98hbi9c { text-align:right; }#cja0zvuf400243c60cs7pj9mx { vertical-align:middle; }#ckd089rhz00073g68lgy2uitw { margin:5px 0 0 0; }#ckd089rhz00073g68lgy2uitw .mkhb-icon-el__link { height:30px; width:30px; }#ckd089rhz00073g68lgy2uitw .mkhb-icon-el__link--hoverable:hover { color:rgba(255,255,255,1);background:rgba(215,223,35,1); }#cja0zvuf3001v3c600f7lyuul { background-color:rgba(61,64,69,1); }#cja0zvuf3001v3c600f7lyuul > .mkhb-row__container { max-width:1200px; }#cja0zvuf3001v3c600f7lyuul .mkhb-row__container { padding:20px 0 20px 0; }#cja0ysvog00073c601teqdxbd { padding:10px 0 0 0; }#cja0ysvog00073c601teqdxbd .mkhb-logo-el__image { width:140px; }#cja0y3t7d000a3c60nhj63q5l { vertical-align:middle; } #cja0yszj5000a3c60xddm65a3.mkhb-nav-container { margin:0; z-index:301; text-align:right; display:inline-block; vertical-align:top; } #cja0yszj5000a3c60xddm65a3 .mkhb-navigation-ul > li.menu-item > a.menu-item-link { color:rgba(68,68,68,1); padding:15px 15px 15px 15px; font-size:14px; font-weight:; margin-right:; } #cja0yszj5000a3c60xddm65a3 .mkhb-navigation-ul > li.menu-item:last-of-type > a.menu-item-link { margin-right:0; } #cja0yszj5000a3c60xddm65a3 .mkhb-navigation ul.sub-menu a.menu-item-link { color:rgba(255,255,255,1); font-size:; font-weight:; } #cja0yszj5000a3c60xddm65a3 .mkhb-navigation li.hb-no-mega-menu ul.sub-menu { background-color:rgba(68,68,68,1); } #cja0yszj5000a3c60xddm65a3 .mkhb-navigation ul.sub-menu a.menu-item-link:hover, #cja0yszj5000a3c60xddm65a3 .mkhb-navigation-ul ul.sub-menu li.current-menu-item > a.menu-item-link, #cja0yszj5000a3c60xddm65a3 .mkhb-navigation-ul ul.sub-menu li.current-menu-parent > a.menu-item-link { background-color:rgba(215,223,35,1); color:rgba(255,255,255,1); } #cja0yszj5000a3c60xddm65a3-wrap .mkhb-navigation-resp__ul > li > a { font-family:Roboto; font-weight:; font-size:14px; color:rgba(68,68,68,1); background-color:; } #cja0yszj5000a3c60xddm65a3-wrap .mkhb-navigation-resp__ul > li:hover > a { color:rgba(255,255,255,1); background-color:rgba(215,223,35,1); } #cja0yszj5000a3c60xddm65a3-wrap .mkhb-navigation-resp__ul > li > ul { background-color:rgba(68,68,68,1); } #cja0yszj5000a3c60xddm65a3-wrap .mkhb-navigation-resp__ul > li > ul li a { font-family:Roboto; font-weight:; font-size:; color:rgba(255,255,255,1); } #cja0yszj5000a3c60xddm65a3-wrap .mkhb-navigation-resp__ul > li > ul li:hover > a { color:rgba(255,255,255,1); background-color:rgba(215,223,35,1); } #cja0yszj5000a3c60xddm65a3.mkhb-menu-nav-style-text a { font-family:Roboto; } #cja0yszj5000a3c60xddm65a3.mkhb-menu-hover-style-2 .mkhb-navigation-ul>li.menu-item>a { background-color:initial; } #cja0yszj5000a3c60xddm65a3.mkhb-menu-hover-style-2 .mkhb-navigation-ul > li.menu-item > a.menu-item-link:hover, #cja0yszj5000a3c60xddm65a3.mkhb-menu-hover-style-2 .mkhb-navigation-ul > li.menu-item:hover > a.menu-item-link, #cja0yszj5000a3c60xddm65a3.mkhb-menu-hover-style-2 .mkhb-navigation-ul > li.current-menu-item > a.menu-item-link, #cja0yszj5000a3c60xddm65a3.mkhb-menu-hover-style-2 .mkhb-navigation-ul > li.current-menu-ancestor > a.menu-item-link { color:rgba(255,255,255,1); background-color:rgba(215,223,35,1); } .mkhb-navigation-resp__wrap { background-color:#ffffff; } .mkhb-navigation-resp__menu > div { background-color:#444444; } .mkhb-navigation-resp__ul li ul li .megamenu-title:hover, .mkhb-navigation-resp__ul li ul li .megamenu-title, .mkhb-navigation-resp__ul li a, .mkhb-navigation-resp__ul li ul li a:hover, .mkhb-navigation-resp__ul .mkhb-navigation-resp__arrow { color:#444444; } #cja0y3t7d000d3c601emj6htv { vertical-align:middle; }#cja0ytb02000d3c60t7d165x2 { padding:10px 15px 0 0; }#cja0ytb02000d3c60t7d165x2 .mkhb-search-el__container { color:rgba(136,136,136,1); }#cja0ytb02000d3c60t7d165x2 .mkhb-search-el__container:hover { color:rgba(68,68,68,1); }#cja0y3t7d000g3c60sck3a4ai { padding:0 30px 30px 30px;vertical-align:bottom; }#cja0y3t7d00073c60yga1gl6u { background-color:rgba(252,252,252,1); }#cja0y3t7d00073c60yga1gl6u > .mkhb-row__container { max-width:1200px; }#cja0y3t7d00073c60yga1gl6u .mkhb-row__container { padding:20px 0 20px 0; }#ckd0frnx500063g68oeuplytk .mkhb-button-el__link { background-color:rgba(215,223,35,1); }#ckd0frnx500063g68oeuplytk .mkhb-button-el__link:hover { color:rgba(53,53,53,1);background-color:rgba(125,125,125,1); }#ckd0frnx500063g68oeuplytk { text-align:center; }#ckd098fou000o3g68x15kasyf { background-color:rgba(50,50,50,0.01); }#ckd098fou000l3g68s4eosjap { background-color:rgba(80,80,80,1); }#cja0ysvog00063c60jswx21yh { padding:10px 0 0 0; }#cja0ysvog00063c60jswx21yh .mkhb-logo-el__image { width:140px; }#cja0ytb02000c3c6035c50a8q .mkhb-search-el__container { color:rgba(136,136,136,1); }#cja0ytb02000c3c6035c50a8q .mkhb-search-el__container:hover { color:rgba(68,68,68,1); } #cja0yszj500093c60yntrrjy6.mkhb-nav-container { margin:0 10px 0 0; z-index:301; text-align:right; display:inline-block; vertical-align:top; } #cja0yszj500093c60yntrrjy6 .mkhb-navigation-ul > li.menu-item > a.menu-item-link { color:rgba(68,68,68,1); padding:15px 15px 15px 15px; font-size:14px; font-weight:; margin-right:; } #cja0yszj500093c60yntrrjy6 .mkhb-navigation-ul > li.menu-item:last-of-type > a.menu-item-link { margin-right:0; } #cja0yszj500093c60yntrrjy6 .mkhb-navigation ul.sub-menu a.menu-item-link { color:rgba(255,255,255,1); font-size:; font-weight:; } #cja0yszj500093c60yntrrjy6 .mkhb-navigation li.hb-no-mega-menu ul.sub-menu { background-color:rgba(68,68,68,1); } #cja0yszj500093c60yntrrjy6 .mkhb-navigation ul.sub-menu a.menu-item-link:hover, #cja0yszj500093c60yntrrjy6 .mkhb-navigation-ul ul.sub-menu li.current-menu-item > a.menu-item-link, #cja0yszj500093c60yntrrjy6 .mkhb-navigation-ul ul.sub-menu li.current-menu-parent > a.menu-item-link { background-color:rgba(215,223,35,1); color:rgba(255,255,255,1); } #cja0yszj500093c60yntrrjy6-wrap .mkhb-navigation-resp__ul > li > a { font-family:Roboto; font-weight:; font-size:14px; color:rgba(68,68,68,1); background-color:; } #cja0yszj500093c60yntrrjy6-wrap .mkhb-navigation-resp__ul > li:hover > a { color:rgba(255,255,255,1); background-color:rgba(215,223,35,1); } #cja0yszj500093c60yntrrjy6-wrap .mkhb-navigation-resp__ul > li > ul { background-color:rgba(68,68,68,1); } #cja0yszj500093c60yntrrjy6-wrap .mkhb-navigation-resp__ul > li > ul li a { font-family:Roboto; font-weight:; font-size:; color:rgba(255,255,255,1); } #cja0yszj500093c60yntrrjy6-wrap .mkhb-navigation-resp__ul > li > ul li:hover > a { color:rgba(255,255,255,1); background-color:rgba(215,223,35,1); } #cja0yszj500093c60yntrrjy6 .mkhb-navigation-resp { text-align:right; display:inline-block; vertical-align:top; } #cja0yszj500093c60yntrrjy6 .mkhb-navigation-resp__box { background:rgba(255,255,255,1); border-radius:; padding:15px 15px 15px 15px; border-top:0 solid #ffffff; border-right:0 solid #ffffff; border-bottom:0 solid #ffffff; border-left:0 solid #ffffff; height:44px;width:45px; } #cja0yszj500093c60yntrrjy6 .mkhb-navigation-resp__bar, #cja0yszj500093c60yntrrjy6 .mkhb-navigation-resp__bar:after, #cja0yszj500093c60yntrrjy6 .mkhb-navigation-resp__bar:before { width:15px; height:2px; background:rgba(136,136,136,1); } #cja0yszj500093c60yntrrjy6 .mkhb-navigation-resp__box:hover { background:; } #cja0yszj500093c60yntrrjy6 .mkhb-navigation-resp__box:hover .mkhb-navigation-resp__bar, #cja0yszj500093c60yntrrjy6 .mkhb-navigation-resp__box:hover .mkhb-navigation-resp__bar:after, #cja0yszj500093c60yntrrjy6 .mkhb-navigation-resp__box:hover .mkhb-navigation-resp__bar:before { background:; } #cja0yszj500093c60yntrrjy6 .fullscreen-active .mkhb-navigation-resp__bar, #cja0yszj500093c60yntrrjy6 .fullscreen-active .mkhb-navigation-resp__box:hover .mkhb-navigation-resp__bar { background:rgba( 255, 255, 255, 0 ); } #cja0yszj500093c60yntrrjy6 .mkhb-navigation-resp__bar { transform:translateY(6px); } #cja0yszj500093c60yntrrjy6 .mkhb-navigation-resp__bar:before { bottom:6px; } #cja0yszj500093c60yntrrjy6 .mkhb-navigation-resp__bar:after { top:6px; } #cja0yszj500093c60yntrrjy6 .fullscreen-active .mkhb-navigation-resp__bar:after { top:0; } #cja0yszj500093c60yntrrjy6 .fullscreen-active .mkhb-navigation-resp__bar:before { bottom:0; } #cja0yszj500093c60yntrrjy6-wrap .mkhb-navigation-resp__arrow { line-height:52px; } #cja0yszj500093c60yntrrjy6-wrap .mkhb-navigation-resp__ul > li > a { padding-top:15px; padding-bottom:15px; } @media (max-width:767px) { #cja0yszj500093c60yntrrjy6.mkhb-el-tablet { display:none !important; } } @media (min-width:768px) and (max-width:1024px) { #cja0yszj500093c60yntrrjy6.mkhb-el-mobile { display:none !important; } } @media (min-width:1025px) { #cja0yszj500093c60yntrrjy6.mkhb-el-tablet, #cja0yszj500093c60yntrrjy6.mkhb-el-mobile { display:none !important; } } .mkhb-navigation-resp__wrap { background-color:#ffffff; } .mkhb-navigation-resp__menu > div { background-color:#444444; } .mkhb-navigation-resp__ul li ul li .megamenu-title:hover, .mkhb-navigation-resp__ul li ul li .megamenu-title, .mkhb-navigation-resp__ul li a, .mkhb-navigation-resp__ul li ul li a:hover, .mkhb-navigation-resp__ul .mkhb-navigation-resp__arrow { color:#444444; } #cja0y3t7d00093c601p56yc0q { vertical-align:middle; }#cja0y3t7d000c3c60hprpdtxs { vertical-align:middle; }#cja0y3t7d000f3c60ylkiztmh { padding:0 30px 30px 30px;vertical-align:bottom; }#cja0y3t7d00063c60ws3wlkxk { background-color:rgba(252,252,252,1); }#cja0y3t7d00063c60ws3wlkxk > .mkhb-row__container { max-width:1200px; }#cja0y3t7d00063c60ws3wlkxk .mkhb-row__container { padding:20px 0 20px 0; }#cja13tyke001n3c64lg2ju6tx .mkhb-logo-el__image { width:100px; }#cja13suyw000w3c64j8mtrgqe { vertical-align:middle; } #cja13tg8y001k3c647obeww8w.mkhb-nav-container { margin:0; z-index:301; text-align:center; display:inline-block; vertical-align:top; } #cja13tg8y001k3c647obeww8w .mkhb-navigation-ul > li.menu-item > a.menu-item-link { color:rgba(72,72,72,1); padding:15px 15px 15px 15px; font-size:14px; font-weight:; margin-right:; } #cja13tg8y001k3c647obeww8w .mkhb-navigation-ul > li.menu-item:last-of-type > a.menu-item-link { margin-right:0; } #cja13tg8y001k3c647obeww8w .mkhb-navigation ul.sub-menu a.menu-item-link { color:rgba(253,249,249,1); font-size:; font-weight:; } #cja13tg8y001k3c647obeww8w .mkhb-navigation li.hb-no-mega-menu ul.sub-menu { background-color:rgba(52,52,52,1); } #cja13tg8y001k3c647obeww8w .mkhb-navigation ul.sub-menu a.menu-item-link:hover, #cja13tg8y001k3c647obeww8w .mkhb-navigation-ul ul.sub-menu li.current-menu-item > a.menu-item-link, #cja13tg8y001k3c647obeww8w .mkhb-navigation-ul ul.sub-menu li.current-menu-parent > a.menu-item-link { background-color:rgba(215,223,35,1); color:#444444; } #cja13tg8y001k3c647obeww8w-wrap .mkhb-navigation-resp__ul > li > a { font-family:Roboto; font-weight:; font-size:14px; color:rgba(72,72,72,1); background-color:; } #cja13tg8y001k3c647obeww8w-wrap .mkhb-navigation-resp__ul > li:hover > a { color:rgba(255,255,255,1); background-color:rgba(215,223,35,1); } #cja13tg8y001k3c647obeww8w-wrap .mkhb-navigation-resp__ul > li > ul { background-color:rgba(52,52,52,1); } #cja13tg8y001k3c647obeww8w-wrap .mkhb-navigation-resp__ul > li > ul li a { font-family:Roboto; font-weight:; font-size:; color:rgba(253,249,249,1); } #cja13tg8y001k3c647obeww8w-wrap .mkhb-navigation-resp__ul > li > ul li:hover > a { color:#444444; background-color:rgba(215,223,35,1); } #cja13tg8y001k3c647obeww8w.mkhb-menu-nav-style-text a { font-family:Roboto; } #cja13tg8y001k3c647obeww8w.mkhb-menu-hover-style-2 .mkhb-navigation-ul>li.menu-item>a { background-color:initial; } #cja13tg8y001k3c647obeww8w.mkhb-menu-hover-style-2 .mkhb-navigation-ul > li.menu-item > a.menu-item-link:hover, #cja13tg8y001k3c647obeww8w.mkhb-menu-hover-style-2 .mkhb-navigation-ul > li.menu-item:hover > a.menu-item-link, #cja13tg8y001k3c647obeww8w.mkhb-menu-hover-style-2 .mkhb-navigation-ul > li.current-menu-item > a.menu-item-link, #cja13tg8y001k3c647obeww8w.mkhb-menu-hover-style-2 .mkhb-navigation-ul > li.current-menu-ancestor > a.menu-item-link { color:rgba(255,255,255,1); background-color:rgba(215,223,35,1); } .mkhb-navigation-resp__wrap { background-color:#ffffff; } .mkhb-navigation-resp__menu > div { background-color:#444444; } .mkhb-navigation-resp__ul li ul li .megamenu-title:hover, .mkhb-navigation-resp__ul li ul li .megamenu-title, .mkhb-navigation-resp__ul li a, .mkhb-navigation-resp__ul li ul li a:hover, .mkhb-navigation-resp__ul .mkhb-navigation-resp__arrow { color:#444444; } #cja13suyw000z3c645c2n72nm { background-color:rgba(255,255,255,0.41);vertical-align:middle; }#cja13u72h001q3c64immuv23u { margin:0 20px 0 0; }#cja13u72h001q3c64immuv23u .mkhb-search-el__container { color:rgba(136,136,136,1); }#cja13u72h001q3c64immuv23u .mkhb-search-el__container:hover { color:rgba(68,68,68,1); }#cja13suyw00123c6443mltfde { vertical-align:middle; }#cja13suyw000t3c64vvhvvoj4 { background-color:rgba(255,255,255,0.76); }#cja13suyw000t3c64vvhvvoj4 > .mkhb-row__container { max-width:1200px; }#cja13tyke001m3c64el47bosz .mkhb-logo-el__image { width:140px; }#cja13suyw000v3c64o7pvproj { vertical-align:middle; } #cja13tg8y001j3c64djea0j87.mkhb-nav-container { margin:0; z-index:301; text-align:center; display:inline-block; vertical-align:top; } #cja13tg8y001j3c64djea0j87 .mkhb-navigation-ul > li.menu-item > a.menu-item-link { color:rgba(72,72,72,1); padding:15px 15px 15px 15px; font-size:14px; font-weight:; margin-right:; } #cja13tg8y001j3c64djea0j87 .mkhb-navigation-ul > li.menu-item:last-of-type > a.menu-item-link { margin-right:0; } #cja13tg8y001j3c64djea0j87 .mkhb-navigation ul.sub-menu a.menu-item-link { color:rgba(253,249,249,1); font-size:; font-weight:; } #cja13tg8y001j3c64djea0j87 .mkhb-navigation li.hb-no-mega-menu ul.sub-menu { background-color:rgba(52,52,52,1); } #cja13tg8y001j3c64djea0j87 .mkhb-navigation ul.sub-menu a.menu-item-link:hover, #cja13tg8y001j3c64djea0j87 .mkhb-navigation-ul ul.sub-menu li.current-menu-item > a.menu-item-link, #cja13tg8y001j3c64djea0j87 .mkhb-navigation-ul ul.sub-menu li.current-menu-parent > a.menu-item-link { background-color:rgba(215,223,35,1); color:#444444; } #cja13tg8y001j3c64djea0j87-wrap .mkhb-navigation-resp__ul > li > a { font-family:Roboto; font-weight:; font-size:14px; color:rgba(72,72,72,1); background-color:; } #cja13tg8y001j3c64djea0j87-wrap .mkhb-navigation-resp__ul > li:hover > a { color:rgba(255,255,255,1); background-color:rgba(215,223,35,1); } #cja13tg8y001j3c64djea0j87-wrap .mkhb-navigation-resp__ul > li > ul { background-color:rgba(52,52,52,1); } #cja13tg8y001j3c64djea0j87-wrap .mkhb-navigation-resp__ul > li > ul li a { font-family:Roboto; font-weight:; font-size:; color:rgba(253,249,249,1); } #cja13tg8y001j3c64djea0j87-wrap .mkhb-navigation-resp__ul > li > ul li:hover > a { color:#444444; background-color:rgba(215,223,35,1); } #cja13tg8y001j3c64djea0j87.mkhb-menu-nav-style-text a { font-family:Roboto; } #cja13tg8y001j3c64djea0j87.mkhb-menu-hover-style-2 .mkhb-navigation-ul>li.menu-item>a { background-color:initial; } #cja13tg8y001j3c64djea0j87.mkhb-menu-hover-style-2 .mkhb-navigation-ul > li.menu-item > a.menu-item-link:hover, #cja13tg8y001j3c64djea0j87.mkhb-menu-hover-style-2 .mkhb-navigation-ul > li.menu-item:hover > a.menu-item-link, #cja13tg8y001j3c64djea0j87.mkhb-menu-hover-style-2 .mkhb-navigation-ul > li.current-menu-item > a.menu-item-link, #cja13tg8y001j3c64djea0j87.mkhb-menu-hover-style-2 .mkhb-navigation-ul > li.current-menu-ancestor > a.menu-item-link { color:rgba(255,255,255,1); background-color:rgba(215,223,35,1); } .mkhb-navigation-resp__wrap { background-color:#ffffff; } .mkhb-navigation-resp__menu > div { background-color:#444444; } .mkhb-navigation-resp__ul li ul li .megamenu-title:hover, .mkhb-navigation-resp__ul li ul li .megamenu-title, .mkhb-navigation-resp__ul li a, .mkhb-navigation-resp__ul li ul li a:hover, .mkhb-navigation-resp__ul .mkhb-navigation-resp__arrow { color:#444444; } #cja13suyw000y3c64043fxjvc { vertical-align:middle; }#cja13u72h001p3c64kqa4amlz { margin:0 20px 0 0; }#cja13u72h001p3c64kqa4amlz .mkhb-search-el__container { color:rgba(136,136,136,1); }#cja13u72h001p3c64kqa4amlz .mkhb-search-el__container:hover { color:rgba(68,68,68,1); }#cja13suyw00113c648tuwwybn { margin:10px 0 0 0;vertical-align:middle; }#cja13suyw000s3c64quox2gr8 { background-color:rgba(226,226,226,1); }#cja13suyw000s3c64quox2gr8 > .mkhb-row__container { max-width:1200px; }#cja13suyw000s3c64quox2gr8 .mkhb-row__container { padding:10px 0 10px 0; }#cja13tyke001l3c64uoxawgb6 .mkhb-logo-el__image { width:140px; }#cja13u72h001o3c64i4d4p8xr .mkhb-search-el__container { color:rgba(136,136,136,1); }#cja13u72h001o3c64i4d4p8xr .mkhb-search-el__container:hover { color:rgba(68,68,68,1); } #cja13tg8y001i3c644kmya5wd.mkhb-nav-container { margin:0 10px 0 0; z-index:301; text-align:right; display:inline-block; vertical-align:top; } #cja13tg8y001i3c644kmya5wd .mkhb-navigation-ul > li.menu-item > a.menu-item-link { color:rgba(72,72,72,1); padding:15px 15px 15px 15px; font-size:14px; font-weight:; margin-right:; } #cja13tg8y001i3c644kmya5wd .mkhb-navigation-ul > li.menu-item:last-of-type > a.menu-item-link { margin-right:0; } #cja13tg8y001i3c644kmya5wd .mkhb-navigation ul.sub-menu a.menu-item-link { color:rgba(253,249,249,1); font-size:; font-weight:; } #cja13tg8y001i3c644kmya5wd .mkhb-navigation li.hb-no-mega-menu ul.sub-menu { background-color:rgba(52,52,52,1); } #cja13tg8y001i3c644kmya5wd .mkhb-navigation ul.sub-menu a.menu-item-link:hover, #cja13tg8y001i3c644kmya5wd .mkhb-navigation-ul ul.sub-menu li.current-menu-item > a.menu-item-link, #cja13tg8y001i3c644kmya5wd .mkhb-navigation-ul ul.sub-menu li.current-menu-parent > a.menu-item-link { background-color:rgba(215,223,35,1); color:#444444; } #cja13tg8y001i3c644kmya5wd-wrap .mkhb-navigation-resp__ul > li > a { font-family:Roboto; font-weight:; font-size:14px; color:rgba(72,72,72,1); background-color:; } #cja13tg8y001i3c644kmya5wd-wrap .mkhb-navigation-resp__ul > li:hover > a { color:rgba(255,255,255,1); background-color:rgba(215,223,35,1); } #cja13tg8y001i3c644kmya5wd-wrap .mkhb-navigation-resp__ul > li > ul { background-color:rgba(52,52,52,1); } #cja13tg8y001i3c644kmya5wd-wrap .mkhb-navigation-resp__ul > li > ul li a { font-family:Roboto; font-weight:; font-size:; color:rgba(253,249,249,1); } #cja13tg8y001i3c644kmya5wd-wrap .mkhb-navigation-resp__ul > li > ul li:hover > a { color:#444444; background-color:rgba(215,223,35,1); } #cja13tg8y001i3c644kmya5wd .mkhb-navigation-resp { text-align:right; display:inline-block; vertical-align:top; } #cja13tg8y001i3c644kmya5wd .mkhb-navigation-resp__box { background:rgba(226,226,226,1); border-radius:; padding:15px 15px 15px 15px; border-top:0 solid #ffffff; border-right:0 solid #ffffff; border-bottom:0 solid #ffffff; border-left:0 solid #ffffff; height:44px;width:45px; } #cja13tg8y001i3c644kmya5wd .mkhb-navigation-resp__bar, #cja13tg8y001i3c644kmya5wd .mkhb-navigation-resp__bar:after, #cja13tg8y001i3c644kmya5wd .mkhb-navigation-resp__bar:before { width:15px; height:2px; background:rgba(136,136,136,1); } #cja13tg8y001i3c644kmya5wd .mkhb-navigation-resp__box:hover { background:; } #cja13tg8y001i3c644kmya5wd .mkhb-navigation-resp__box:hover .mkhb-navigation-resp__bar, #cja13tg8y001i3c644kmya5wd .mkhb-navigation-resp__box:hover .mkhb-navigation-resp__bar:after, #cja13tg8y001i3c644kmya5wd .mkhb-navigation-resp__box:hover .mkhb-navigation-resp__bar:before { background:; } #cja13tg8y001i3c644kmya5wd .fullscreen-active .mkhb-navigation-resp__bar, #cja13tg8y001i3c644kmya5wd .fullscreen-active .mkhb-navigation-resp__box:hover .mkhb-navigation-resp__bar { background:rgba( 255, 255, 255, 0 ); } #cja13tg8y001i3c644kmya5wd .mkhb-navigation-resp__bar { transform:translateY(6px); } #cja13tg8y001i3c644kmya5wd .mkhb-navigation-resp__bar:before { bottom:6px; } #cja13tg8y001i3c644kmya5wd .mkhb-navigation-resp__bar:after { top:6px; } #cja13tg8y001i3c644kmya5wd .fullscreen-active .mkhb-navigation-resp__bar:after { top:0; } #cja13tg8y001i3c644kmya5wd .fullscreen-active .mkhb-navigation-resp__bar:before { bottom:0; } #cja13tg8y001i3c644kmya5wd-wrap .mkhb-navigation-resp__arrow { line-height:52px; } #cja13tg8y001i3c644kmya5wd-wrap .mkhb-navigation-resp__ul > li > a { padding-top:15px; padding-bottom:15px; } @media (max-width:767px) { #cja13tg8y001i3c644kmya5wd.mkhb-el-tablet { display:none !important; } } @media (min-width:768px) and (max-width:1024px) { #cja13tg8y001i3c644kmya5wd.mkhb-el-mobile { display:none !important; } } @media (min-width:1025px) { #cja13tg8y001i3c644kmya5wd.mkhb-el-tablet, #cja13tg8y001i3c644kmya5wd.mkhb-el-mobile { display:none !important; } } .mkhb-navigation-resp__wrap { background-color:#ffffff; } .mkhb-navigation-resp__menu > div { background-color:#444444; } .mkhb-navigation-resp__ul li ul li .megamenu-title:hover, .mkhb-navigation-resp__ul li ul li .megamenu-title, .mkhb-navigation-resp__ul li a, .mkhb-navigation-resp__ul li ul li a:hover, .mkhb-navigation-resp__ul .mkhb-navigation-resp__arrow { color:#444444; } #cja13suyw000u3c64jz61ve56 { vertical-align:middle; }#cja13suyw000x3c64ryksq4jw { vertical-align:middle; }#cja13suyw00103c6465chm016 { margin:10px 0 0 0;vertical-align:middle; }#cja13suyw000r3c645gnpua2z { background-color:rgba(226,226,226,1); }#cja13suyw000r3c645gnpua2z > .mkhb-row__container { max-width:1200px; }#cja13suyw000r3c645gnpua2z .mkhb-row__container { padding:10px 0 10px 0; }
+    </style>
+    <link rel='stylesheet' id='layerslider-css'  href='https://www.weifieldcontracting.com/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.0.5' type='text/css' media='all' />
+    <style id='global-styles-inline-css' type='text/css'>
+        body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+    </style>
+    <link rel='stylesheet' id='theme-styles-css'  href='https://www.weifieldcontracting.com/wp-content/themes/jupiter/assets/stylesheet/min/full-styles.6.10.0.css?ver=1631815786' type='text/css' media='all' />
+    <style id='theme-styles-inline-css' type='text/css'>
+
+        #wpadminbar {
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -webkit-perspective: 1000;
+            -ms-perspective: 1000;
+            perspective: 1000;
+            -webkit-transform: translateZ(0px);
+            -ms-transform: translateZ(0px);
+            transform: translateZ(0px);
+        }
+        @media screen and (max-width: 600px) {
+            #wpadminbar {
+                position: fixed !important;
+            }
+        }
+
+        body { background-color:#fff; } .hb-custom-header #mk-page-introduce, .mk-header { background-color:#f7f7f7;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover; } .hb-custom-header > div, .mk-header-bg { background-color:#fff; } .mk-classic-nav-bg { background-color:#fff; } .master-holder-bg { background-color:#fff; } #mk-footer { background-color:#3d4045; } #mk-boxed-layout { -webkit-box-shadow:0 0 0px rgba(0, 0, 0, 0); -moz-box-shadow:0 0 0px rgba(0, 0, 0, 0); box-shadow:0 0 0px rgba(0, 0, 0, 0); } .mk-news-tab .mk-tabs-tabs .is-active a, .mk-fancy-title.pattern-style span, .mk-fancy-title.pattern-style.color-gradient span:after, .page-bg-color { background-color:#fff; } .page-title { font-size:20px; color:#4d4d4d; text-transform:uppercase; font-weight:400; letter-spacing:2px; } .page-subtitle { font-size:14px; line-height:100%; color:#a3a3a3; font-size:14px; text-transform:none; } .header-style-1 .mk-header-padding-wrapper, .header-style-2 .mk-header-padding-wrapper, .header-style-3 .mk-header-padding-wrapper { padding-top:146px; } .mk-process-steps[max-width~="950px"] ul::before { display:none !important; } .mk-process-steps[max-width~="950px"] li { margin-bottom:30px !important; width:100% !important; text-align:center; } .mk-event-countdown-ul[max-width~="750px"] li { width:90%; display:block; margin:0 auto 15px; } body { font-family:Open Sans } h1, h2, h3 { font-family:Oswald } @font-face { font-family:'star'; src:url('https://www.weifieldcontracting.com/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.eot'); src:url('https://www.weifieldcontracting.com/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.eot?#iefix') format('embedded-opentype'), url('https://www.weifieldcontracting.com/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.woff') format('woff'), url('https://www.weifieldcontracting.com/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.ttf') format('truetype'), url('https://www.weifieldcontracting.com/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.svg#star') format('svg'); font-weight:normal; font-style:normal; } @font-face { font-family:'WooCommerce'; src:url('https://www.weifieldcontracting.com/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.eot'); src:url('https://www.weifieldcontracting.com/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.eot?#iefix') format('embedded-opentype'), url('https://www.weifieldcontracting.com/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.woff') format('woff'), url('https://www.weifieldcontracting.com/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.ttf') format('truetype'), url('https://www.weifieldcontracting.com/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.svg#WooCommerce') format('svg'); font-weight:normal; font-style:normal; }.mk-toolbar-holder { float:right } #mk-breadcrumbs .mk-breadcrumbs-inner.dark-skin { color:#000; } #mk-breadcrumbs .mk-breadcrumbs-inner.dark-skin a { color:#000; } #mk-breadcrumbs .mk-breadcrumbs-inner.dark-skin a:hover { color:#ccc; } .mkhb-navigation-ul li.menu-item { position:relative; display:block; list-style-type:none; font-variant-caps:normal; text-transform:uppercase; } .mkhb-navigation ul.sub-menu a.menu-item-link { text-transform:uppercase!important; }
+    </style>
+    <link rel='stylesheet' id='mkhb-row-css'  href='https://www.weifieldcontracting.com/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-row.css?ver=6.10.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='mkhb-column-css'  href='https://www.weifieldcontracting.com/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-column.css?ver=6.10.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='mkhb-logo-css'  href='https://www.weifieldcontracting.com/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-logo.css?ver=6.10.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='mkhb-textbox-css'  href='https://www.weifieldcontracting.com/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-textbox.css?ver=6.10.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='mkhb-button-css'  href='https://www.weifieldcontracting.com/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-button.css?ver=6.10.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='mkhb-navigation-css'  href='https://www.weifieldcontracting.com/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-navigation.css?ver=6.10.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='mkhb-search-css'  href='https://www.weifieldcontracting.com/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-search.css?ver=6.10.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='mkhb-icon-css'  href='https://www.weifieldcontracting.com/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-icon.css?ver=6.10.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='mkhb-social-css'  href='https://www.weifieldcontracting.com/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-social.css?ver=6.10.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='js_composer_front-css'  href='https://www.weifieldcontracting.com/wp-content/plugins/js_composer_theme/assets/css/js_composer.min.css?ver=6.7.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='theme-options-css'  href='https://www.weifieldcontracting.com/wp-content/uploads/mk_assets/theme-options-production-1645653796.css?ver=1645653786' type='text/css' media='all' />
+    <link rel='stylesheet' id='gforms_reset_css-css'  href='https://www.weifieldcontracting.com/wp-content/plugins/gravityforms/legacy/css/formreset.min.css?ver=2.5.16' type='text/css' media='all' />
+    <link rel='stylesheet' id='gforms_formsmain_css-css'  href='https://www.weifieldcontracting.com/wp-content/plugins/gravityforms/legacy/css/formsmain.min.css?ver=2.5.16' type='text/css' media='all' />
+    <link rel='stylesheet' id='gforms_ready_class_css-css'  href='https://www.weifieldcontracting.com/wp-content/plugins/gravityforms/legacy/css/readyclass.min.css?ver=2.5.16' type='text/css' media='all' />
+    <link rel='stylesheet' id='gforms_browsers_css-css'  href='https://www.weifieldcontracting.com/wp-content/plugins/gravityforms/legacy/css/browsers.min.css?ver=2.5.16' type='text/css' media='all' />
+    <link rel='stylesheet' id='jupiter-donut-shortcodes-css'  href='https://www.weifieldcontracting.com/wp-content/plugins/jupiter-donut/assets/css/shortcodes-styles.min.css?ver=1.4.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='mk-style-css'  href='https://www.weifieldcontracting.com/wp-content/themes/jupiter-child/style.css?ver=5.9.1' type='text/css' media='all' />
+    <script type='text/javascript' data-noptimize='' data-no-minify='' src='https://www.weifieldcontracting.com/wp-content/themes/jupiter/assets/js/plugins/wp-enqueue/min/webfontloader.js?ver=5.9.1' id='mk-webfontloader-js'></script>
+    <script type='text/javascript' id='mk-webfontloader-js-after'>
+        WebFontConfig = {
+            timeout: 2000
+        }
+
+        if ( mk_typekit_id.length > 0 ) {
+            WebFontConfig.typekit = {
+                id: mk_typekit_id
+            }
+        }
+
+        if ( mk_google_fonts.length > 0 ) {
+            WebFontConfig.google = {
+                families:  mk_google_fonts
+            }
+        }
+
+        if ( (mk_google_fonts.length > 0 || mk_typekit_id.length > 0) && navigator.userAgent.indexOf("Speed Insights") == -1) {
+            WebFont.load( WebFontConfig );
+        }
+
+    </script>
+    <script type='text/javascript' src='https://www.weifieldcontracting.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+    <script type='text/javascript' src='https://www.weifieldcontracting.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+    <script type='text/javascript' id='layerslider-utils-js-extra'>
+        /* <![CDATA[ */
+        var LS_Meta = {"v":"7.0.5","fixGSAP":"1"};
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='https://www.weifieldcontracting.com/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.0.5' id='layerslider-utils-js'></script>
+    <script type='text/javascript' src='https://www.weifieldcontracting.com/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.0.5' id='layerslider-js'></script>
+    <script type='text/javascript' src='https://www.weifieldcontracting.com/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.0.5' id='layerslider-transitions-js'></script>
+    <script type='text/javascript' src='https://www.weifieldcontracting.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.11' async id='tp-tools-js'></script>
+    <script type='text/javascript' src='https://www.weifieldcontracting.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.11' async id='revmin-js'></script>
+    <script type='text/javascript' defer='defer' src='https://www.weifieldcontracting.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.5.16' id='gform_json-js'></script>
+    <script type='text/javascript' id='gform_gravityforms-js-extra'>
+        /* <![CDATA[ */
+        var gform_i18n = {"datepicker":{"days":{"monday":"Mon","tuesday":"Tue","wednesday":"Wed","thursday":"Thu","friday":"Fri","saturday":"Sat","sunday":"Sun"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+        var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/www.weifieldcontracting.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/www.weifieldcontracting.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+        var gf_legacy_multi = {"2":"1"};
+        /* ]]> */
+    </script>
+    <script type='text/javascript' id='gform_gravityforms-js-before'>
+
+    </script>
+    <script type='text/javascript' defer='defer' src='https://www.weifieldcontracting.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.5.16' id='gform_gravityforms-js'></script>
+    <script type='text/javascript' id='site24x7_rum_js-js-extra'>
+        /* <![CDATA[ */
+        var phpParams = {"rumMOKey":"f8a666def659ec01c67baa0a4533ec37","dataCentreExt":"com"};
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='https://www.weifieldcontracting.com/wp-content/plugins/site24x7-rum/js/site24x7-rum.js?ver=5.9.1' id='site24x7_rum_js-js'></script>
+    <meta name="generator" content="Powered by LayerSlider 7.0.5 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+    <!-- LayerSlider updates and docs at: https://layerslider.com -->
+    <link rel="https://api.w.org/" href="https://www.weifieldcontracting.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.weifieldcontracting.com/wp-json/wp/v2/pages/494" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.weifieldcontracting.com/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.weifieldcontracting.com/wp-includes/wlwmanifest.xml" />
+    <link rel='shortlink' href='https://www.weifieldcontracting.com/?p=494' />
+    <link rel="alternate" type="application/json+oembed" href="https://www.weifieldcontracting.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.weifieldcontracting.com%2Fcontact%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="https://www.weifieldcontracting.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.weifieldcontracting.com%2Fcontact%2F&#038;format=xml" />
+
+    <!-- Google Tag Manager for WordPress by gtm4wp.com -->
+    <script data-cfasync="false" data-pagespeed-no-defer>//<![CDATA[
+        var dataLayer_content = {"pagePostType":"page","pagePostType2":"single-page","pagePostAuthor":"weifieldgroup"};
+        dataLayer.push( dataLayer_content );//]]>
+    </script>
+    <script data-cfasync="false">//<![CDATA[
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MTVJB2X');//]]>
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- End Google Tag Manager for WordPress by gtm4wp.com --><meta itemprop="author" content="weifieldgroup" /><meta itemprop="datePublished" content="February 11, 2016" /><meta itemprop="dateModified" content="February 2, 2022" /><meta itemprop="publisher" content="Weifield Electrical Contracting" /><script> var isTest = false; </script><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+    <meta name="generator" content="Powered by Slider Revolution 6.5.11 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+    <script type="text/javascript">function setREVStartSize(e){
+            //window.requestAnimationFrame(function() {
+            window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+            window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+            try {
+                var pw = document.getElementById(e.c).parentNode.offsetWidth,
+                    newh;
+                pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+                e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+                e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+                e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+                e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+                e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+                e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+                e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+                if(e.layout==="fullscreen" || e.l==="fullscreen")
+                    newh = Math.max(e.mh,window.RSIH);
+                else{
+                    e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+                    for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+                    e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+                    e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+                    for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+
+                    var nl = new Array(e.rl.length),
+                        ix = 0,
+                        sl;
+                    e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+                    e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+                    e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+                    e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+                    for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+                    sl = nl[0];
+                    for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+                    var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+                    newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+                }
+                var el = document.getElementById(e.c);
+                if (el!==null && el) el.style.height = newh+"px";
+                el = document.getElementById(e.c+"_wrapper");
+                if (el!==null && el) {
+                    el.style.height = newh+"px";
+                    el.style.display = "block";
+                }
+            } catch(e){
+                console.log("Failure at Presize of Slider:" + e)
+            }
+            //});
+        };</script>
+    <meta name="generator" content="Jupiter Child Theme 5.0.10" /><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1449133811483{padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	</head>
+
+    <div id="theme-page" class="master-holder  clearfix" itemscope="itemscope" itemtype="https://schema.org/Blog" >
+        <div class="master-holder-bg-holder">
+            <div id="theme-page-bg" class="master-holder-bg js-el"  ></div>
+        </div>
+        <div class="mk-main-wrapper-holder">
+            <div id="mk-page-id-494" class="theme-page-wrapper mk-main-wrapper mk-grid full-layout no-padding">
+                <div class="theme-content no-padding" itemprop="mainEntityOfPage">
+
+                    <div class="mk-page-section-wrapper" data-mk-full-width="true" data-mk-full-width-init="true" data-mk-stretch-content="true">
+                        <div id="page-section-1" class="mk-page-section self-hosted   full_layout full-width-1 js-el js-master-row jupiter-donut-    center-y"    data-intro-effect="false">
+
+
+                            <div class="mk-page-section-inner">
+
+
+
+                                <div style="background-color:#005051;opacity:0.7;" class="mk-video-color-mask"></div>
+
+
+                            </div>
+
+
+                            <div class="page-section-content vc_row-fluid mk-grid " >
+                                <div class="mk-padding-wrapper wpb_row">
+                                    <div class="vc_col-sm-12 wpb_column column_container  jupiter-donut- _ jupiter-donut-height-full">
+
+                                        <div id="padding-3" class="mk-padding-divider jupiter-donut-  jupiter-donut-clearfix"></div>
+
+
+                                        <h2 id="fancy-title-4" class="mk-fancy-title  simple-style jupiter-donut-  color-single">
+	<span>
+				<p>Get in Touch</p>
+			</span>
+                                        </h2>
+                                        <div class="clearboth"></div>
+
+
+
+
+
+                                        <div class="wpb_row vc_inner vc_row vc_row-fluid jupiter-donut-   attched-false   ">
+                                            <div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div id="mk-icon-box-5" class="mk-box-icon-2  jupiter-donut- box-align-center ">    <div class="mk-box-icon-2-icon size-48">        <svg  class="mk-svg-icon" data-name="mk-moon-location-3" data-cacheid="icon-621760002122a" style=" height:48px; width: 48px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 480c-88.366 0-160-71.634-160-160 0-160 160-352 160-352s160 192 160 352c0 88.366-71.635 160-160 160zm0-258c-54.124 0-98 43.876-98 98s43.876 98 98 98 98-43.876 98-98-43.876-98-98-98zm-62 98a62 62 1260 1 0 124 0 62 62 1260 1 0-124 0z" transform="scale(1 -1) translate(0 -480)"/></svg>     </div>    <h3 class="mk-box-icon-2-title">Address</h3>    <p class="mk-box-icon-2-content"><span style="color: #ffffff;"><b>Weifield Group Contracting</b><br />
+6950 S. Jordan Road<br />
+Centennial, CO 80112</span></p>
+                                                            <p><span style="color: #ffffff;"><b>Industrial Division Office</b><br />
+1270 Automation Drive #500<br />
+Windsor, CO 80550</span></p>
+                                                            <p><span style="color: #ffffff;"><b>Colorado Springs Office</b><br />
+4474 Barnes Road<br />
+Colorado Springs, CO 80917</span></p>
+                                                            <p><span style="color: #ffffff;"><b>Wyoming Office</b><br />
+308 Southwest Dr Unit E<br />
+Cheyenne, WY 82007</span></p>
+                                                            <p><span style="color: #ffffff;"><b>Texas Office</b><br />
+1421 Wells Branch Pkwy. Ste 100<br />
+Pflugerville, TX 78660</span></p>
+                                                            <p><span style="color: #ffffff;"><b>Tennessee Office</b><br />
+1125 Harpeth Industrial Ct, Suite A<br />
+Franklin, TN 37064</span></p></div>
+                                                        <div id="padding-6" class="mk-padding-divider jupiter-donut-visible-sm  jupiter-donut-clearfix"></div>
+
+                                                    </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div id="mk-icon-box-7" class="mk-box-icon-2  jupiter-donut- box-align-center ">    <div class="mk-box-icon-2-icon size-48">        <svg  class="mk-svg-icon" data-name="mk-moon-phone-4" data-cacheid="icon-62176000216f3" style=" height:48px; width: 48px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M321.788 371.146c-11.188 6.236-20.175 2.064-32.764-4.572-11.46-8.748-45.402-35.438-81.226-71.188-26.156-33.084-46.162-64.288-55.375-79.293-.625-1.66-.944-2.632-.944-2.632-5.397-13.476-8.771-22.92-1.324-33.521 6.854-9.727 9.5-12.383 18.24-20.108l-87.79-130.124c-10.604 7.728-27.018 25.106-40.509 44.378-12.538 18.317-23.154 38.587-26.049 53.055 15.295 55.117 52.258 157.896 120.583 231.325l-.021.308c65.73 81.028 170.165 131.43 225.571 153.226 14.679-1.385 35.938-9.844 55.456-20.404 20.598-11.415 39.567-25.945 48.329-35.685l-120.288-100.829c-8.597 7.91-11.498 10.254-21.889 16.064zm-116.178-242.488c7.241-5.302 5.313-14.944 1.926-20.245l-66.579-101.913c-4.344-5.291-13.396-8.064-21.252-5.579l-27.433 18.381 88.034 129.879 25.304-20.523zm287.339 269.188l-94.473-76.788c-4.93-3.918-14.313-6.838-20.325-.188l-23.046 23.05 120.047 101.015 21.136-25.357c3.285-7.564 1.467-16.857-3.339-21.732z"/></svg>     </div>    <h3 class="mk-box-icon-2-title">Phone</h3>    <p class="mk-box-icon-2-content"><span style="color: #ffffff;"><b>Weifield Group Contracting</b><br />
+877.WEIFIELD phone<br />
+303.202.0466 facsimile</span></p>
+                                                            <p><span style="color: #ffffff;"><b>Weifield 24/7 Service Department</b><br />
+877.WEIFIELD<br />
+(Then press 0 for emergency calls)</span></p>
+                                                            <p><span style="color: #ffffff;"><b>Industrial Division Office</b><br />
+877.WEIFIELD phone<br />
+303.202.0466 facsimile</span></p>
+                                                            <p><span style="color: #ffffff;"><b>Wyoming Office</b><br />
+877.WEIFIELD phone</span></p>
+                                                            <p><span style="color: #ffffff;"><b>Texas Office</b><br />
+877.WEIFIELD phone</span></p>
+                                                            <p><span style="color: #ffffff;"><b>Tennessee Office</b><br />
+877.WEIFIELD phone</span></p></div>
+                                                        <div id="padding-8" class="mk-padding-divider jupiter-donut-visible-sm  jupiter-donut-clearfix"></div>
+
+                                                    </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div id="mk-icon-box-9" class="mk-box-icon-2  jupiter-donut- box-align-center ">    <div class="mk-box-icon-2-icon size-48">        <svg  class="mk-svg-icon" data-name="mk-moon-bubble-dots" data-cacheid="icon-6217600021ae9" style=" height:48px; width: 48px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M418 32h-324c-51.7 0-94 42.3-94 94v354l96-96h322c51.7 0 94-42.3 94-94v-164c0-51.7-42.3-94-94-94zm-258 224c-17.673 0-32-14.327-32-32s14.327-32 32-32 32 14.327 32 32-14.327 32-32 32zm96 0c-17.673 0-32-14.327-32-32s14.327-32 32-32 32 14.327 32 32-14.327 32-32 32zm96 0c-17.673 0-32-14.327-32-32s14.327-32 32-32 32 14.327 32 32-14.327 32-32 32z"/></svg>     </div>    <h3 class="mk-box-icon-2-title">Email</h3>    <p class="mk-box-icon-2-content"><span style="color: #ffffff;"><b>Request for Proposal</b></span><br />
+                                                                <span style="color: #ffffff;"> <a style="color: #ffffff;" href="mailto:info@weifieldcontracting.com">Info@weifieldgroup.com</a></span></p>
+                                                            <p><span style="color: #ffffff;"><b>All Bid Opportunities</b></span><br />
+                                                                <span style="color: #ffffff;"> <a style="color: #ffffff;" href="mailto:estimating@weifieldgroup.com">estimating@weifieldgroup.com</a></span></p>
+                                                            <p><span style="color: #ffffff;"><b>Electrical Service Calls</b></span><br />
+                                                                <span style="color: #ffffff;"> <a style="color: #ffffff;" href="mailto:service@weifieldcontracting.com">service@weifieldcontracting.com</a></span></p>
+                                                            <p><span style="color: #ffffff;"><b>Employment Opportunities</b></span><br />
+                                                                <span style="color: #ffffff;"> <a style="color: #ffffff;" href="mailto:careers@weifieldcontracting.com">careers@weifieldcontracting.com</a></span></p></div>
+                                                        <div id="padding-10" class="mk-padding-divider jupiter-donut-visible-sm  jupiter-donut-clearfix"></div>
+
+                                                    </div></div></div>	</div>
+                                    </div>
+                                </div>
+                                <div class="clearboth"></div>
+                            </div>
+
+
+
+
+
+                            <div class="clearboth"></div>
+                        </div>
+                    </div>
+                    <div class="vc_row-full-width vc_clearfix"></div>
+
+
+                    <div  data-mk-stretch-content="true" class="wpb_row vc_row vc_row-fluid jupiter-donut- mk-fullwidth-false  attched-false     js-master-row  mk-grid">
+
+                        <div class="vc_col-sm-12 wpb_column column_container  jupiter-donut- _ jupiter-donut-height-full">
+
+                            <div id="padding-12" class="mk-padding-divider jupiter-donut-hidden-sm  jupiter-donut-clearfix"></div>
+
+                        </div>
+                    </div>
+
+                    <div  data-mk-stretch-content="true" class="wpb_row vc_row vc_row-fluid jupiter-donut- mk-fullwidth-false  attched-false    vc_custom_1449133811483  js-master-row  mk-grid">
+
+                        <div class="vc_col-sm-6 wpb_column column_container  jupiter-donut- _ jupiter-donut-height-full">
+
+                            <h2 id="fancy-title-14" class="mk-fancy-title  simple-style jupiter-donut-  color-single">
+	<span>
+				<p>Message Us</p>
+			</span>
+                            </h2>
+                            <div class="clearboth"></div>
+
+
+
+
+                            <div id="text-block-15" class="mk-text-block  jupiter-donut- ">
+
+
+                                <p class="p1"><span class="s1">If you wish to be considered for employment at Weifield, please do not send a message, here – instead, please complete Weifield’s </span><span class="s2"><a href="http://weifieldgroup.wpengine.com/careers/employee-application-form/">job application</a></span> <span class="s1"> and our Human Resources department will contact you after their review of your submitted information.</span></p>
+
+                                <div class="clearboth"></div>
+                            </div>
+
+
+                            <div id="padding-16" class="mk-padding-divider jupiter-donut-  jupiter-donut-clearfix"></div>
+
+
+                            <div  class="wpb_single_image wpb_content_element vc_align_left">
+
+                                <figure class="wpb_wrapper vc_figure">
+                                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="300" height="120" src="https://www.weifieldcontracting.com/wp-content/uploads/bbb-300x120.jpg" class="vc_single_image-img attachment-medium" alt="" loading="lazy" srcset="https://www.weifieldcontracting.com/wp-content/uploads/bbb-300x120.jpg 300w, https://www.weifieldcontracting.com/wp-content/uploads/bbb-330x132.jpg 330w, https://www.weifieldcontracting.com/wp-content/uploads/bbb-736x295.jpg 736w, https://www.weifieldcontracting.com/wp-content/uploads/bbb-768x308.jpg 768w, https://www.weifieldcontracting.com/wp-content/uploads/bbb-414x166.jpg 414w, https://www.weifieldcontracting.com/wp-content/uploads/bbb.jpg 864w" sizes="(max-width: 300px) 100vw, 300px" itemprop="image" /></div>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="vc_col-sm-6 wpb_column column_container  jupiter-donut- _ jupiter-donut-height-full">
+
+                            <div class='gf_browser_chrome gform_wrapper gform_legacy_markup_wrapper' id='gform_wrapper_2' ><form method='post' enctype='multipart/form-data'  id='gform_2'  action='/contact/' >
+                                    <div class='gform_body gform-body'><ul id='gform_fields_2' class='gform_fields top_label form_sublabel_below description_below'><li id="field_2_1" class="gfield field_sublabel_below field_description_below gfield_visibility_visible" ><label class='gfield_label gfield_label_before_complex'  >Name</label><div class='ginput_complex ginput_container no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name' id='input_2_1'>
+
+                            <span id='input_2_1_3_container' class='name_first' >
+                                                    <input type='text' name='input_1.3' id='input_2_1_3' value=''   aria-required='false'     />
+                                                    <label for='input_2_1_3' >First</label>
+                                                </span>
+
+                                                    <span id='input_2_1_6_container' class='name_last' >
+                                                    <input type='text' name='input_1.6' id='input_2_1_6' value=''   aria-required='false'     />
+                                                    <label for='input_2_1_6' >Last</label>
+                                                </span>
+
+                                                </div></li><li id="field_2_2" class="gfield field_sublabel_below field_description_below gfield_visibility_visible" ><label class='gfield_label' for='input_2_2' >Email</label><div class='ginput_container ginput_container_email'>
+                                                    <input name='input_2' id='input_2_2' type='text' value='' class='medium'     aria-invalid="false"  />
+                                                </div></li><li id="field_2_3" class="gfield field_sublabel_below field_description_below gfield_visibility_visible" ><label class='gfield_label' for='input_2_3' >Comments</label><div class='ginput_container ginput_container_textarea'><textarea name='input_3' id='input_2_3' class='textarea medium'      aria-invalid="false"   rows='10' cols='50'></textarea></div></li></ul></div>
+                                    <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_2' class='gform_button button' value='Submit'  onclick='if(window["gf_submitting_2"]){return false;}  window["gf_submitting_2"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_2"]){return false;} window["gf_submitting_2"]=true;  jQuery("#gform_2").trigger("submit",[true]); }' />
+                                        <input type='hidden' class='gform_hidden' name='is_submit_2' value='1' />
+                                        <input type='hidden' class='gform_hidden' name='gform_submit' value='2' />
+
+                                        <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+                                        <input type='hidden' class='gform_hidden' name='state_2' value='WyJbXSIsImE2Mjg0ZWY4MjU4MTBhZmQ2NmQ0NmQzZmFlMzg1N2M2Il0=' />
+                                        <input type='hidden' class='gform_hidden' name='gform_target_page_number_2' id='gform_target_page_number_2' value='0' />
+                                        <input type='hidden' class='gform_hidden' name='gform_source_page_number_2' id='gform_source_page_number_2' value='1' />
+                                        <input type='hidden' name='gform_field_values' value='' />
+
+                                    </div>
+                                </form>
+                            </div>
+                            <div id="padding-18" class="mk-padding-divider jupiter-donut-visible-sm  jupiter-donut-clearfix"></div>
+
+                        </div>
+                    </div>
+
+                    <div  data-mk-stretch-content="true" class="wpb_row vc_row vc_row-fluid jupiter-donut- mk-fullwidth-false  attched-false     js-master-row  mk-grid">
+
+                        <div class="vc_col-sm-12 wpb_column column_container  jupiter-donut- _ jupiter-donut-height-full">
+
+                            <div id="padding-20" class="mk-padding-divider jupiter-donut-hidden-sm  jupiter-donut-clearfix"></div>
+
+                        </div>
+                    </div>
+
+                    <div  data-mk-full-width="true" data-mk-full-width-init="false" data-mk-stretch-content="true" class="wpb_row vc_row vc_row-fluid jupiter-donut- mk-fullwidth-true  attched-false     js-master-row  mk-full-content-true">
+
+                        <div class="vc_col-sm-12 wpb_column column_container  jupiter-donut- _ jupiter-donut-height-full">
+                            <div id="mk-advanced-gmaps-22" class="mk-advanced-gmaps  jupiter-donut-  js-el"
+                                 style="height: 500px;"
+                                 data-mk-component='[ "AdvancedGMaps" ]'
+                                 data-AdvancedGMaps-config='{"places":[{"address":"6950 S. Jordan Road, Centennial, CO 80112","latitude":"39.5902505","longitude":"-104.8198806","marker":"https:\/\/www.weifieldcontracting.com\/wp-content\/uploads\/map-icon-1.png"},{"address":"1270 Automation Dr, Windsor, CO 80550","latitude":"40.465599","longitude":"-104.8904437","marker":"https:\/\/www.weifieldcontracting.com\/wp-content\/uploads\/map-icon-1.png"},{"address":"4474 Barnes Road Colorado Springs, CO 80917","latitude":"38.8970684","longitude":"-104.7436728","marker":"http:\/\/www.weifieldcontracting.com\/wp-content\/uploads\/map-icon-1.png"},{"address":"308 Southwest Dr Unit E Cheyenne, WY 82007","latitude":"41.1189159","longitude":"-104.8431103","marker":"http:\/\/www.weifieldcontracting.com\/wp-content\/uploads\/map-icon-1.png"},{"address":"1421 Wells Branch Pkwy. Ste 303 Pflugerville, TX 78660","latitude":"30.4392685","longitude":"-97.6637549","marker":"http:\/\/www.weifieldcontracting.com\/wp-content\/uploads\/map-icon-1.png"},{"address":"1125 Harpeth Industrial Ct, Suite A Franklin, TN 37064","latitude":"35.934298","longitude":"-86.859958","marker":"http:\/\/www.weifieldcontracting.com\/wp-content\/uploads\/map-icon-1.png"}],"options":{"zoom":4,"draggable":true,"panControl":true,"zoomControl":true,"scaleControl":true,"mapTypeControl":true,"mapTypeId":"ROADMAP","apikey":"AIzaSyC3JmcTBOYrD-LPlAgDomoXUq9FdQps0xE"},"style":[],"icon":"http:\/\/www.weifieldcontracting.com\/wp-content\/uploads\/map-icon-1.png"}'
+                            ></div></div>
+                    </div>
+                    <div class="vc_row-full-width vc_clearfix"></div>
+                    <div class="clearboth"></div>
+                    <div class="clearboth"></div>
+                </div>
+                <div class="clearboth"></div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
